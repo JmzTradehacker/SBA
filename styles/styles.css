@@ -17,10 +17,6 @@ body {
     color: var(--color-secondary);
 }
 
-.nav-item:hover {
-    background-color: var(--color-secondary);
-}
-
 .navbar {
     background-color: var(--color-primary);
 }
@@ -51,6 +47,7 @@ body {
 
 .btn-primary:hover {
     background-color: var(--color-primary);
+    animation: pulse 1s infinite;
 }
 
 .card {
@@ -72,6 +69,12 @@ img {
     height: 100%;
     object-fit: cover;
     z-index: 1;
+}
+
+.sc3 {
+    width: 100%;
+    padding: 5% 0;
+    background-color: var(--color-dark);
 }
 
 .cubo {
