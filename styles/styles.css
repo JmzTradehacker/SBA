@@ -43,10 +43,35 @@ body {
     z-index: 1;
 }
 
+.btn-primary {
+    background-color: var(--color-secondary);
+    border: none;
+    color: var(--color-light);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary);
+}
+
 .card {
     background-color: white;
+    border-radius: 10%;
     border-color: var(--color-accent);
     color: var(--color-primary);
+}
+
+.bbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
 }
 
 .cubo {
