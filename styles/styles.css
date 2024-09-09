@@ -43,6 +43,12 @@ body {
     z-index: 1;
 }
 
+.card {
+    background-color: white;
+    border-color: var(--color-accent);
+    color: var(--color-primary);
+}
+
 .cubo {
     position: absolute;
     z-index: 2;
