@@ -1,0 +1,24 @@
+:root {
+    --color-light: #E7ECEF;
+    --color-primary: #274C77;
+    --color-secondary: #6096BA;
+    --color-accent: #A3CEF1;
+    --color-dark: #8B8C89;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+.navbar-toggler {
+    color: var(--color-secondary);
+}
+
+.nav-item:hover {
+    background-color: var(--color-secondary);
+}
+
+.navbar {
+    background-color: var(--color-primary);
+}
